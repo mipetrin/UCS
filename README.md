@@ -3,6 +3,7 @@ Created by Michael Petrinovic 2018
 Sample UCSM Python Scripts for:
 * Cisco Live Melbourne 2018: BRKDCN-2602
 * Cisco Live USA 2018: BRKDCN-2011
+* Cisco Live Barcelona 2019: BRKDCN-2011
 
 Be sure to copy the sample_ucs_my_credentials file. Modify the variables to specify your hostname and password. Save this file as ucs_my_credentials.py - as that it was all the scripts look for. Furthermore, within each script, it specifies during the connect phase if it will use UCSM or UCSM2, etc, so as to match up to the credentials file
 
