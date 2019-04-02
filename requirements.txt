@@ -1,3 +1,4 @@
+configparser==3.7.4
 pyparsing==2.2.0
 tabulate==0.8.2
 ucsmsdk==0.9.3.1
