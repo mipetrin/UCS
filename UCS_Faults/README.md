@@ -1,15 +1,14 @@
-Sample UCS Python Scripts from various presentations that I do at Cisco Live and other events, including Customer Presentations/Demos, DevNet, DevNet Express Events, Internal Training that I feel the demo should be shared, etc:
+Sample UCS Python Script that will allow you to obtain all the Faults currently active within an ACI Environment.
 
-* Cisco Live Melbourne 2018: BRKDCN-2602
-* Cisco Live Orlando 2018: BRKDCN-2011
-* Cisco Live Barcelona 2019: BRKDCN-2011
-* Cisco Live Melbourne 2019: BRKDCN-2602
-* Cisco Live San Diego 2019: BRKDCN-2011
-
-> Within each sub-directory, is the script and an additional README. It will be documented in that README what each script is expected to achieve and how to use that particular script.
+> It will then produce a simple report for you, that includes all the faults, what severity, how many occurrences, possible causes, etc.
 
 > By default, the script will look for the my_credentials.ini in the current directory before searching the parent directory. Be sure to modify the groups (available UCS Domains) and username/password variables to match your environment. You can then use the -p or --platform to specify the UCS Domain to use for Script execution.
 
+Sample Usage:
+
+```YAML
+# python ucs_faults.py --platform real
+```
 
 Created by Michael Petrinovic 2018
 
