@@ -5,29 +5,21 @@ A collection of Simple UCS Python Scripts that will help get you started with th
 Detailed explanation of what each script achieves:
 * ucs_python_classid_info.py
   * Extract all available Meta information about each UCS SDK Python Class
-* ucs_python_conversion_java.py
-  * Use this script to launch the UCS Java Client and then convert all actions you perform to the relevant Python UCS Code
-* ucs_python_conversion_xml.py
-  * After enabling the HTML 5 XML Recording link () and you have generated the log file, you can then use this script to convernt the XML Log file to the relevant Python UCS Code
-* ucs_python_skeleton_code.py
-  * Skeleton code structure that you can use as a template to paste the Python UCS Code (from the outputs of ucs_python_conversion_java.py and ucs_python_conversion_xml.py) to then be able to successfully execute the Python code
-
-
-Sample Usage:
-
 ```YAML
 # ucs_python_classid_info.py
 ```
-
+* ucs_python_conversion_java.py
+  * Use this script to launch the UCS Java Client and then convert all actions you perform to the relevant Python UCS Code
 ```YAML
 # python ucs_python_conversion_java.py --platform real
 ```
-
-"Ctrl + Alt + Q" to enable recording XML Link
+* ucs_python_conversion_xml.py
+  * After enabling the HTML 5 XML Recording link ("Ctrl + Alt + Q") and you have generated the log file, you can then use this script to convernt the XML Log file to the relevant Python UCS Code
 ```YAML
 # python ucs_python_conversion_xml.py
 ```
-
+* ucs_python_skeleton_code.py
+  * Skeleton code structure that you can use as a template to paste the Python UCS Code (from the outputs of ucs_python_conversion_java.py and ucs_python_conversion_xml.py) to then be able to successfully execute the Python code
 ```YAML
 # python ucs_python_skeleton_code.py
 ```
