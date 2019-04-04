@@ -8,7 +8,7 @@ Sample UCS Python Scripts from various presentations that I do at Cisco Live and
 
 > Within each sub-directory, is the script and an additional README. It will be documented in that README what each script is expected to achieve and how to use that particular script.
 
-> By default, the script will look for the my_credentials.ini in the current directory before searching the parent directory. Be sure to modify the groups (available UCS Domains) and username/password variables to match your environment. You can then use the -p or --platform to specify the UCS Domain to use for Script execution.
+> By default, the script will look for the [my_credentials.ini](https://github.com/mipetrin/UCS/blob/master/my_credentials.ini) in the current directory before searching the parent directory (as set out in this Directory Structure. I.E. Script in the sub-directory per script and then all within the UCS Directory). Be sure to modify the groups (available UCS Domains) and username/password variables to match your environment. You can then use the -p or --platform to specify the UCS Domain to use for Script execution.
 
 
 Created by Michael Petrinovic 2018
